@@ -124,7 +124,7 @@ footer {
 
 }
 h1 {
-  font-size: 31px;
+  font-size: 29px;
   font-weight: lighter;
   letter-spacing: -1px;
 }
@@ -315,6 +315,7 @@ h1 {
   margin-top: 21px;
   }
 .social {
+  position:absolute;
   display: inline-block;
 }
 .twittermain {
@@ -343,7 +344,7 @@ h1 {
 .primary-footer {
     position: relative;
     z-index: 10;
-    margin-top: 150px;
+    margin-top: 50px;
 
 
 }
@@ -565,8 +566,6 @@ h1 {
   font-size: 21px;
   letter-spacing: 1px;
   font-weight: bolder;
-  margin-left: 520px;
-  margin-top: -341px;
 }
 
 .mailing {
@@ -574,13 +573,11 @@ h1 {
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-left: 520px;
   margin-top: 10px;
   width: 228px; 
 }
 
 .fancy-input {
-margin-left: 520px;
 margin-top: 20px;
 position: relative;
 display: inline-block;
@@ -612,7 +609,6 @@ display: inline-block;
 
 .fbicon {
   position: relative;
-  margin-left: 520px;
   margin-top: 10px;
   bottom: -36px;
 }
@@ -622,7 +618,6 @@ display: inline-block;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-left: 560px;
   margin-top: 10px;
   width: 228px;
   letter-spacing: 2px;  
@@ -630,7 +625,6 @@ display: inline-block;
 
 .twittericon {
   margin-top: 10px;
-  margin-left:523px;
 }
 
 .twitter {
@@ -638,7 +632,6 @@ display: inline-block;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-left: 560px;
   margin-top: -25px;
   width: 228px;
   letter-spacing: 2px;  
@@ -646,7 +639,6 @@ display: inline-block;
 
 .googleicon {
   margin-top: 10px;
-  margin-left:522px;
 }
 .group {
   position: relative;
@@ -657,7 +649,6 @@ display: inline-block;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-left: 560px;
   margin-top: -26px;
   width: 228px;
   letter-spacing: 2px;  
@@ -672,7 +663,6 @@ display: inline-block;
   text-shadow: 0px -2px #B67007;
   width: 240px;
   height: 45px;
-  margin-left: 855px;
   margin-top: 20px;
   box-shadow: 0px 2px 10px rgb(116, 80, 3);
   border-radius: 10px;
@@ -686,7 +676,6 @@ display: inline-block;
   font-size: 19px;
   letter-spacing: 2px;
   font-weight: bolder;
-  margin-left: 856px;
   margin-top: 26px;
 }
 
@@ -695,7 +684,6 @@ display: inline-block;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-left: 855px;
   margin-top: 12px;
   width: 228px;
 }
@@ -711,7 +699,6 @@ display: inline-block;
   letter-spacing: 2px;
   padding-top: 16px;
   padding-bottom: 0px;
-  margin-left: 853px;
   margin-top: 12px;
   border-style: outset;
   border-color: rgb(148, 148, 148);
@@ -724,7 +711,6 @@ display: inline-block;
   font-family: futura;
   font-weight: lighter;
   font-size: 13px;
-  margin-left: 855px;
   margin-top: 54px;
   width: 228px;
   letter-spacing: 2px;
@@ -733,13 +719,18 @@ display: inline-block;
 
 .section1{
   margin-left: -25px;
+  width: 400px;
+  display: inline-block;
 }
 .section2{
-  margin-left: -88px;
+  display: inline-block;
+  width: 275px;
+  margin-top: 15px;
+  margin-left: 23px;
+
 }
 .section3{
-  margin-top: -353px;
-  margin-left: -114px;
+  display: inline-block;
 }
 
 /*Middle section*/
@@ -845,26 +836,27 @@ display: inline-block;
 }
 
 .eventspreview {
-  position: relative;
-  top: 96px;
-  width: 580px;
+  display: inline-block;
+top: 96px;
+width: 580px;
+margin-top: 98px;
 }
 
 .middleparttwo {
   display: inline-block;
-  width: 576px;
+  width: 940px;
 }
 .startboxhold {
-  position: absolute;
-top: 360px;
-left: 594px;
+  display: inline-block;
+  margin-top: 86px;
 }
 .startbox {
-position: relative;
+display: inline-block;
 background: rgb(165, 161, 156);
-width: 350px;
+width: 338px;
 height: 255px;
 top: 0px;
+position: relative;
 }
 
 .startone {
