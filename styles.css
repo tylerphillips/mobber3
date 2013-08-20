@@ -608,48 +608,54 @@ display: inline-block;
 }
 
 .fbicon {
+  display: inline-block;
   position: relative;
-  margin-top: 10px;
-  bottom: -36px;
 }
 
 .facebook {
+  display: inline-block;
   color: white;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 17px;
   width: 228px;
   letter-spacing: 2px;  
 }
 
 .twittericon {
+  display: inline-block;
   margin-top: 10px;
 }
 
 .twitter {
+  display: inline-block;
+  position: relative;
   color: white;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-top: -25px;
+  margin-top: 27px;
   width: 228px;
   letter-spacing: 2px;  
 }
 
 .googleicon {
+  display: inline-block;
   margin-top: 10px;
 }
 .group {
-  position: relative;
+  display: inline-block;
   margin-top: 7px;
 }
 .google {
+  position: relative;
+  display: inline-block;
   color: white;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-top: -26px;
+  margin-top: 25px;
   width: 228px;
   letter-spacing: 2px;  
 }
