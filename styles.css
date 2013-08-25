@@ -86,7 +86,7 @@ tfoot {
 header {
   min-width: 940px;
   height: 61px;
-  background: url(file:///Users/tylerphillips/Desktop/mobber3/images/header.png) repeat-x top left;
+  background: url(images/header.png) repeat-x top left;
 }
 
 footer {
@@ -126,19 +126,19 @@ footer {
 }
  
 .primary-header .user-menu {
+  display: inline-block;
   float: right;
 }
  
 .primary-header .user-menu .avatar{
-  margin-top: 5px;
-  margin-right: 10px;
+  margin-top: 3px;
   width: 40px;
   border-radius: 100px;
 }
  
 .primary-header .user-menu .name {
   color: white;
-  margin-top: 17px;
+  margin-top: 15px;
   display: inline-block;
 }
  
@@ -748,48 +748,64 @@ display: inline-block;
 }
 
 .fbicon {
+  display: inline-block;
   position: relative;
-  margin-top: 10px;
-  bottom: -36px;
 }
 
 .facebook {
+<<<<<<< HEAD
   
+=======
+  display: inline-block;
+>>>>>>> a7c0fce4386c422536b51ac8588461041e4bbb8d
   color: white;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-top: 10px;
+  margin-top: 17px;
   width: 228px;
   letter-spacing: 2px;
   margin-left: 45px;  
 }
 
 .twittericon {
+  display: inline-block;
   margin-top: 10px;
 }
 
 .twitter {
+  display: inline-block;
+  position: relative;
   color: white;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-top: -25px;
+  margin-top: 27px;
   width: 228px;
   letter-spacing: 2px; 
   margin-left: 45px; 
 }
 
 .googleicon {
+  display: inline-block;
   margin-top: 10px;
 }
+<<<<<<< HEAD
 
+=======
+.group {
+  display: inline-block;
+  margin-top: 7px;
+}
+>>>>>>> a7c0fce4386c422536b51ac8588461041e4bbb8d
 .google {
+  position: relative;
+  display: inline-block;
   color: white;
   font-family: futura;
   font-weight: lighter;
   font-size: 14px;
-  margin-top: -26px;
+  margin-top: 25px;
   width: 228px;
   letter-spacing: 2px; 
   margin-left: 45px; 
@@ -1169,6 +1185,12 @@ top: 177px;
 left: 35px;
 }
 
+<<<<<<< HEAD
 .last-child {
   border-width: 0px;
 }
+=======
+/*.tr:last-child {
+  border-bottom: none;
+}*/
+>>>>>>> a7c0fce4386c422536b51ac8588461041e4bbb8d
